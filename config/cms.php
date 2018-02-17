@@ -11,14 +11,14 @@ return [
     |
     */
 
-    'auth_key' => 'put your unique phrase here',
-    'secure_auth_key' => 'put your unique phrase here',
-    'logged_in_key' => 'put your unique phrase here',
-    'nonce_key' => 'put your unique phrase here',
-    'auth_salt' => 'put your unique phrase here',
-    'secure_auth_salt' => 'put your unique phrase here',
-    'logged_in_salt' => 'put your unique phrase here',
-    'nonce_salt' => 'put your unique phrase here',
+    'auth_key' => '',
+    'secure_auth_key' => '',
+    'logged_in_key' => '',
+    'nonce_key' => '',
+    'auth_salt' => '',
+    'secure_auth_salt' => '',
+    'logged_in_salt' => '',
+    'nonce_salt' => '',
 
     /*
     |--------------------------------------------------------------------------
