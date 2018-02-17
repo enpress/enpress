@@ -62,6 +62,9 @@
         "installer-paths": {
             "public/content/mu-plugins/{$name}/": [
                 "wp-premium/advanced-custom-fields-pro"
+            ],
+            "public/content/plugins/{$name}/": [
+                "type:wordpress-plugin"
             ]
         },
         "wordpress-install-dir": {
