@@ -2,6 +2,7 @@
 /public/cms
 /public/hot
 /public/storage
+/public/content/upgrade
 /storage/*.key
 /vendor
 /.idea
