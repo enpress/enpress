@@ -50,4 +50,39 @@ return [
     */
     'content_directory' => 'content',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Object Cache
+    |--------------------------------------------------------------------------
+    */
+
+    'object_cache' => [
+        /*
+         * Use Laravel Cache for persistence
+         */
+        'persistent' => true,
+
+        /*
+         * Cache Prefix
+         */
+        'prefix' => 'wp',
+
+        /*
+         * Default cache expiration in minutes
+         */
+        'expiration' => 1440,
+
+        /*
+         * Allow Wordpress flush functions to flush persistent cache
+         */
+        'allow_persistent_flush' => true,
+
+        /*
+         *  Wordpress data groups not to be persisted
+         */
+        'not_persisted' => [
+            //
+        ],
+    ],
+
 ];
